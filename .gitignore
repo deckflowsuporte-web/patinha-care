@@ -1,5 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Production
 *.log
-node_modules
+
+# Environment
 .env
-.next
+.env.local
+.env.development.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
 .agents/

@@ -5,20 +5,18 @@ Site da clínica veterinária Patinha Care.
 ## 📁 Estrutura
 
 ```
-/workspace/project/
-├── .config/                  # ⚙️ TUDO AQUI DENTRO
-│   ├── src/
-│   │   ├── app/             # Páginas
-│   │   │   ├── page.tsx     # Home
-│   │   │   ├── sobre/       # Sobre
-│   │   │   ├── servicos/    # Serviços
-│   │   │   ├── agendar/     # Agendamento
-│   │   │   └── contato/     # Contato
-│   │   └── components/       # Navbar, Footer
-│   ├── .agents/             # Skills do agente
-│   ├── package.json
-│   └── next.config.js
-└── AGENTS.md
+patinha-care/
+├── app/              # Páginas Next.js
+│   ├── page.tsx     # Home
+│   ├── sobre/       # Sobre
+│   ├── servicos/    # Serviços
+│   ├── agendar/     # Agendar
+│   └── contato/     # Contato
+├── components/      # Navbar, Footer
+├── public/         # Assets
+├── .config/        # 🤖 Skills do agente
+├── package.json
+└── next.config.js
 ```
 
 ## 🛤️ Rotas
