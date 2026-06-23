@@ -1,0 +1,13 @@
+{
+  "name": "creative-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd .config && npm install && npm run dev",
+    "build": "npm run dev -- --build",
+    "start": "npm run dev -- --start",
+    "install:deps": "cd .config && npm install",
+    "clean": "rm -rf .config/node_modules .config/.next"
+  },
+  "description": "Estúdio criativo com Three.js, Remotion e animações"
+}
